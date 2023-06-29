@@ -100,7 +100,7 @@ function Calculator() {
                     <TiMinus />
                   </button>
                   <button
-                    className={classes.button_calc}
+                    className={classes.button_calc+' '+classes.button_canc}
                     key="c"
                     onClick={clear}
                   >

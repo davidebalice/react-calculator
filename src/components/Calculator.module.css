@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "digital7";
+  src: url("../assets/fonts/Digital7.ttf") format("truetype");
+}
+
 .calculatorContainer {
   width: 100%;
   max-width: 700px !important;
@@ -47,6 +52,15 @@
   background-color: #777;
 }
 
+.button_canc {
+  background: #ff0000;
+  border: 5px solid #ff0000;
+}
+
+.button_canc:hover {
+  background-color: #a71f1f;
+}
+
 .numbers {
   flex: 1 1 32.333%;
   min-width: 32.333333%;
@@ -77,6 +91,7 @@
   background-color: #a1af77;
   border: 1px solid black;
   flex-direction: column;
+  font-family: digital7;
 }
 
 .preRes {
