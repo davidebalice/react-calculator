@@ -1,5 +1,6 @@
 import React from "react";
 import classes from "./Header.module.css";
+import logo from "./../assets/img/logo.png";
 
 const Header = () => {
   return (
@@ -11,11 +12,7 @@ const Header = () => {
               <div className="row align-items-center">
                 <div className="col-xl-2 col-lg-2 col-md-1">
                   <div className={classes.logoContainer}>
-                    <img
-                      src="./../assets/img/logo/logo.png"
-                      alt="db logo"
-                      className={classes.logo}
-                    />
+                    <img src={logo} alt="db logo" className={classes.logo} />
                   </div>
                 </div>
               </div>
