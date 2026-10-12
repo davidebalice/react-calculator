@@ -3,7 +3,7 @@
 A simple, responsive calculator built with React.
 It shows a live preview of the result while you type and supports the four basic operations with decimal numbers.
 
-**Live demo:** https://davidebalice.github.io/react-calculator/
+**Live demo:** <https://davidebalice.github.io/react-calculator/>
 
 ![Screenshot](docs/screenshot.png)
 
